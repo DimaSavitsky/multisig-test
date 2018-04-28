@@ -11,6 +11,7 @@
     "compile": "truffle compile",
     "console": "truffle console",
     "migrate": "truffle migrate",
+    "migrate_reset": "truffle migrate --reset",
     "test": "truffle test"
   },
   "keywords": [],
