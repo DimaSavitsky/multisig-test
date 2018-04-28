@@ -1,0 +1,24 @@
+{
+  "name": "multisig-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "ganache": "ganache-cli",
+    "compile": "truffle compile",
+    "console": "truffle console",
+    "migrate": "truffle migrate",
+    "test": "truffle test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.1.0",
+    "truffle": "^4.1.7",
+    "zeppelin-solidity": "1.9.0"
+  }
+}
