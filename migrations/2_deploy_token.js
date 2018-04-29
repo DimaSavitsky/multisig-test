@@ -1,6 +1,6 @@
 var NoxToken = artifacts.require("./NoxToken.sol");
 
 module.exports = function(deployer) {
-    const cap = new web3.BigNumber('6000000');
+    const cap = new web3.BigNumber(web3.toWei(100, 'Ether'));
     deployer.deploy(NoxToken, cap);
 };
